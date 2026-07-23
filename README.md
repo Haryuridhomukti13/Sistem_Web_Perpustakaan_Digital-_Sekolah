@@ -36,7 +36,7 @@ digilib2/
 ├── berita.php, detail_berita.php
 ├── cetak_kartu.php
 ├── pengaturan.php
-├── 📁css/, 📁js/, 📁img/
+├── 📁css/, 📁js/code jsnya, 📁img/
 
 ## ⚙️ Instalasi
 1. Clone repository ini ke folder server lokal (misalnya `htdocs` untuk XAMPP)
