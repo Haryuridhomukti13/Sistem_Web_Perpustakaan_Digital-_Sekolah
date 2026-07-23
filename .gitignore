@@ -1,0 +1,39 @@
+# ============================
+# Digilib2 - .gitignore (PHP)
+# ============================
+
+# File konfigurasi sensitif (kredensial database, dsb)
+config.local.php
+.env
+
+# File sistem OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log
+*.log
+logs/
+
+# Dependency manager (kalau nanti pakai Composer)
+/vendor/
+composer.lock
+
+# Upload user (opsional - uncomment kalau tidak mau upload foto/sampul ikut ke repo)
+# uploads/
+# img/foto/
+# img/Gambar/
+
+# File backup/testing
+*.bak
+*.tmp
+*_backup.*
+
+# File database dump lokal (kalau ada testing sql lokal)
+*.sql.bak
